@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Consola</string>
+    <string name="textViewConsole">Console</string>
+    <string name="buttonCuriosidades">Curiosidades</string>
+
+    <string-array name="planets_array">
+        <item>Choose a option</item>
+        <item>Microsoft</item>
+        <item>Nintendo</item>
+        <item>Sony</item>
+    </string-array>
+    <string name="title_activity_microsoft">Microsoft</string>
+    <string name="title_activity_nintendo">Nintendo</string>
+    <string name="title_activity_sony">Sony</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="textXbox">Xbox</string>
+    <string name="textXbox360">Xbox 360</string>
+    <string name="textXboxOne">Xbox One</string>
+    <string name="textXboxOneX">Xbox One X</string>
+    <string name="buttonXbox">Xbox</string>
+    <string name="buttonXbox360">Xbox 360</string>
+    <string name="buttonXboxOne">Xbox One</string>
+    <string name="buttosXboxOneX">Xbox One X</string>
+    <string name="buttonWii">Wii</string>
+    <string name="buttonWiiu">Wii U</string>
+    <string name="button3ds">Nintendo 3DS</string>
+    <string name="buttonSwitch">Nintendo Switch</string>
+    <string name="butonPlay1">PlayStation1</string>
+    <string name="buttonPlay2">PlayStation2</string>
+    <string name="buttonPlay3">PlayStation3</string>
+    <string name="buttonPlay4">PlayStation4</string>
+    <string name="title_activity_information">InformationActivity</string>
+    <string name="textInformation" />
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="buttonSingUp">Sing Up</string>
+    <string name="title_activity_information_xbox360">InformationXbox360Activity</string>
+    <string name="title_activity_information_xbox_one">InformationXboxOneActivity</string>
+    <string name="title_activity_information_xbox_one_x">InformationXboxOneXActivity</string>
+    <string name="title_activity_information_wii">InformationWiiActivity</string>
+    <string name="title_activity_information_wii_u">InformationWiiUActivity</string>
+    <string name="title_activity_information_nintendo3ds">InformationNintendo3dsActivity</string>
+    <string name="title_activity_information_nintendo_switch">InformationNintendoSwitchActivity</string>
+    <string name="title_activity_information_ps1">InformationPS1Activity</string>
+    <string name="title_activity_information_ps2">InformationPS2Activity</string>
+    <string name="title_activity_information_ps3">InformationPS3Activity</string>
+    <string name="title_activity_information_ps4">InformationPS4Activity</string>
+    <string name="title_activity_games">GamesActivity</string>
+    <string name="buttosListGame">List of Games</string>
+    <string name="buttonCuriosities">Curiosities</string>
+    <string name="textViewConsoles">Consoles</string>
+    <string name="titXbox">Xbox</string>
+    <string name="titNin3DS">Nintendo 3DS</string>
+    <string name="titSwitch">Nintendo Switch</string>
+    <string name="titPS1">PlayStation1</string>
+    <string name="titps2">PlayStation2</string>
+    <string name="titps3">PlayStation3</string>
+    <string name="titps4">PlayStation4</string>
+    <string name="titwii">WII</string>
+    <string name="titwiiu">WII U</string>
+    <string name="tit360">Xbox 360</string>
+    <string name="titxboxone">Xbox One</string>
+    <string name="titonex">Xbox One X</string>
+    <string name="buttonChek">Registrar</string>
+    <string name="checked">Register</string>
+    <string name="buttonlistgames">Games Categories</string>
+</resources>

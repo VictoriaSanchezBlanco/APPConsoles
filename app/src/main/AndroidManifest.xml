@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.victoria.consola">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NintendoActivity"
+            android:label="@string/title_activity_nintendo"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SonyActivity"
+            android:label="@string/title_activity_sony"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MicrosoftActivity"
+            android:label="@string/title_activity_microsoft"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.MainActivity" />
+        </activity>
+        <activity
+            android:name=".InformationXboxActivity"
+            android:label="@string/title_activity_information"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.MainActivity" />
+        </activity>
+        <activity
+            android:name=".InformationXbox360Activity"
+            android:label="@string/title_activity_information_xbox360"
+            android:parentActivityName=".MicrosoftActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.MicrosoftActivity" />
+        </activity>
+        <activity
+            android:name=".InformationXboxOneActivity"
+            android:label="@string/title_activity_information_xbox_one"
+            android:parentActivityName=".MicrosoftActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.MicrosoftActivity" />
+        </activity>
+        <activity
+            android:name=".InformationXboxOneXActivity"
+            android:label="@string/title_activity_information_xbox_one_x"
+            android:parentActivityName=".MicrosoftActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.MicrosoftActivity" />
+        </activity>
+        <activity
+            android:name=".InformationWiiActivity"
+            android:label="@string/title_activity_information_wii"
+            android:parentActivityName=".NintendoActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.NintendoActivity" />
+        </activity>
+        <activity
+            android:name=".InformationWiiUActivity"
+            android:label="@string/title_activity_information_wii_u"
+            android:parentActivityName=".NintendoActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.NintendoActivity" />
+        </activity>
+        <activity
+            android:name=".InformationNintendo3dsActivity"
+            android:label="@string/title_activity_information_nintendo3ds"
+            android:parentActivityName=".NintendoActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.NintendoActivity" />
+        </activity>
+        <activity
+            android:name=".InformationNintendoSwitchActivity"
+            android:label="@string/title_activity_information_nintendo_switch"
+            android:parentActivityName=".NintendoActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.NintendoActivity" />
+        </activity>
+        <activity
+            android:name=".InformationPS1Activity"
+            android:label="@string/title_activity_information_ps1"
+            android:parentActivityName=".SonyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.SonyActivity" />
+        </activity>
+        <activity
+            android:name=".InformationPS2Activity"
+            android:label="@string/title_activity_information_ps2"
+            android:parentActivityName=".SonyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.SonyActivity" />
+        </activity>
+        <activity
+            android:name=".InformationPS3Activity"
+            android:label="@string/title_activity_information_ps3"
+            android:parentActivityName=".SonyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.SonyActivity" />
+        </activity>
+        <activity
+            android:name=".InformationPS4Activity"
+            android:label="@string/title_activity_information_ps4"
+            android:parentActivityName=".SonyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.SonyActivity" />
+        </activity>
+        <activity
+            android:name=".GamesActivity"
+            android:label="@string/title_activity_games"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.victoria.consola.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MicrosoftActivity"
+    tools:showIn="@layout/activity_microsoft">
+
+    <ImageView
+        android:id="@+id/imageViewXbox"
+        android:layout_width="177dp"
+        android:layout_height="160dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_xbox_background" />
+
+    <Button
+        android:id="@+id/buttonXbox"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        android:text="@string/buttonXbox"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewXbox" />
+
+    <Button
+        android:id="@+id/buttonXbox360"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/black"
+        android:text="@string/buttonXbox360"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonXbox"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewXbox360" />
+
+    <Button
+        android:id="@+id/buttonXboxOne"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/black"
+        android:text="@string/buttonXboxOne"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewXbox1" />
+
+    <Button
+        android:id="@+id/buttonXboxOneX"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:color/black"
+        android:text="@string/buttosXboxOneX"
+        android:textColor="@android:color/holo_orange_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonXboxOne"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewXbox1x" />
+
+    <ImageView
+        android:id="@+id/imageViewXbox360"
+        android:layout_width="149dp"
+        android:layout_height="160dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewXbox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_360_foreground" />
+
+    <ImageView
+        android:id="@+id/imageViewXbox1"
+        android:layout_width="174dp"
+        android:layout_height="146dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonXbox"
+        app:srcCompat="@mipmap/ic_one_foreground" />
+
+    <ImageView
+        android:id="@+id/imageViewXbox1x"
+        android:layout_width="154dp"
+        android:layout_height="145dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewXbox1"
+        app:layout_constraintTop_toBottomOf="@+id/buttonXbox360"
+        app:srcCompat="@mipmap/ic_onex_foreground" />
+
+</android.support.constraint.ConstraintLayout>
